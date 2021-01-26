@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: #1b2631;
+}
+
+.content {
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+p {
+    color: #f1c40f;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px 30px;
+    position: relative;
+    border: 2px solid #f1c40f;
+    color: #f1c40f;
+    font-family: 'Montserrat', sans-serif;
+    transition: .4s;
+    width: 20%;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0 0 20px rgb(255, 203, 43);
+}
+
+
+
