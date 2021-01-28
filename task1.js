@@ -400,6 +400,18 @@ function sortArray() {
         console.log(arr[key]);
     }
 }
+// 2.4*
+function sortByDate() {
+    alert('Check your console')
+    arr.sort((a, b) => {
+        const date1 = a.registrationDate
+        const date2 = b.registrationDate
+        return Date.parse(date2.substring(0, date2.length - 6)) - Date.parse(date1.substring(0, date1.length - 6))
+    })
+    for (let key in arr) {
+        console.log(arr[key]);
+    }
+}
 
 //---//
 function btnFindAllIndex() {
